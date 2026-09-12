@@ -1,0 +1,626 @@
+{
+  "gameSystem": {
+    "name": "Modern Combat by 20mm",
+    "id": "sys-859c-4de4-d4ed-27bf",
+    "battleScribeVersion": "2.03",
+    "library": true,
+    "revision": 3,
+    "type": "gameSystem",
+    "categoryEntries": [
+      {
+        "name": "HQ",
+        "id": "7f0d-c123-90d5-2f3f",
+        "hidden": false,
+        "constraints": [
+          {"id": "446d-ed0d-5e83-eaa3-min", "field": "selections", "includeChildSelections": false, "scope": "force", "shared": true, "type": "min", "value": 1},
+          {"id": "446d-ed0d-5e83-eaa3-max", "field": "selections", "includeChildSelections": false, "scope": "force", "shared": true, "type": "max", "value": 1}
+        ]
+      },
+      {"name": "Vehicle", "id": "7db6-6f0d-58cb-bd06", "hidden": false},
+      {
+        "name": "Infantry",
+        "id": "92d1-b8f2-b72c-bb37",
+        "hidden": false,
+        "constraints": [{"id": "63d8-ba81-0c02-a5ba", "field": "selections", "includeChildSelections": false, "scope": "force", "shared": true, "type": "min", "value": 1}]
+      },
+      {"name": "Aircraft", "id": "2537-f487-8db8-aef5", "hidden": false}
+    ],
+    "costTypes": [{"name": "points", "id": "3bd8-4df5-7bac-292a", "defaultCostLimit": -1}],
+    "forceEntries": [
+      {
+        "name": "Standard Force",
+        "id": "bd57-f65d-6db1-1128",
+        "hidden": false,
+        "categoryLinks": [
+          {
+            "name": "HQ",
+            "id": "c25b-5450-92ad-4780",
+            "hidden": false,
+            "targetId": "7f0d-c123-90d5-2f3f",
+            "constraints": [{"id": "c84b-f01e-ed6c-3a42", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "min", "value": 1}]
+          },
+          {"name": "Infantry", "id": "b446-8a0e-fb5e-01d3", "hidden": false, "targetId": "92d1-b8f2-b72c-bb37"},
+          {"name": "Vehicle", "id": "0ae3-3da9-250c-a2f0", "hidden": false, "targetId": "7db6-6f0d-58cb-bd06", "tracked": true},
+          {"name": "Aircraft", "id": "dd87-59d0-df8f-f572", "hidden": false, "targetId": "2537-f487-8db8-aef5", "tracked": true}
+        ]
+      }
+    ],
+    "profileTypes": [
+      {
+        "name": "Unit",
+        "id": "6e0c-050a-3841-59c1",
+        "hidden": false,
+        "kind": "model",
+        "characteristicTypes": [
+          {"name": "H", "id": "8865-af39-2125-93e9"},
+          {"name": "A", "id": "6797-8a84-a4c0-8f64"},
+          {"name": "S", "id": "aa13-2639-57aa-1bc5"},
+          {"name": "C", "id": "4808-d28d-9b56-ed77"}
+        ]
+      },
+      {
+        "name": "Weapons",
+        "id": "6b8b-be20-14ba-5896",
+        "hidden": false,
+        "kind": "weapon",
+        "characteristicTypes": [
+          {"name": "P", "id": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "id": "a092-a05e-7acc-953f"},
+          {"name": "R", "id": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "id": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {"name": "Modules", "id": "66d6-0302-22e1-f471", "hidden": false, "kind": "rule", "characteristicTypes": [{"name": "Rule", "id": "7009-7386-be56-b8df"}]},
+      {
+        "name": "Modifiers",
+        "id": "d656-77b2-b538-515b",
+        "hidden": false,
+        "kind": "rule",
+        "characteristicTypes": [{"name": "Rule", "id": "0027-a3ff-0553-60c9", "defaultValue": "\n"}]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Rifle",
+        "id": "a07b-eb51-38eb-22bc",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "1", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "0", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "12\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Pierce", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Compact AT Weapon",
+        "id": "09ff-b524-afa0-62e2",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "2", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-2", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "18\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Pierce", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Compact AA Weapon",
+        "id": "0111-7e3d-dc0f-e24c",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "3", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "24\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Air", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "LMG",
+        "id": "ec0d-3cd9-0ddf-661e",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "4", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "0", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "16\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Pierce", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Stationary MMG",
+        "id": "1195-4fa1-549d-6b5d",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "6", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "0", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "18\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Stationary, Pierce", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Stationary AT Weapon",
+        "id": "b314-d938-9446-1047",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "3", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-4", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "64\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Stationary, Pierce", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Stationary AA MMG",
+        "id": "b19d-6c1e-ce41-d9c4",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "4", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "32\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Stationary, Air", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Stationary AA Missile Launcher",
+        "id": "5678-a3b5-5bd2-bb3a",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "8", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "48\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Stationary, Air", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Vehicle-mounted AA MMG",
+        "id": "f4ca-b9b2-8236-6dee",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "4", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "32\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Air", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Vehicle-mounted HMG",
+        "id": "6243-9d65-3a45-64c4",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "7", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-1", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "18\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Pierce", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Vehicle-mounted MMG",
+        "id": "2672-2e95-fcbf-0446",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "5", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "0", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "18\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Pierce", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Vehicle-mounted AA Missile Launcher",
+        "id": "7439-0059-17a6-8bdf",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "8", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "64\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Air", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Heavy Cannon",
+        "id": "f7f8-0abd-5bf5-fb5a",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "1", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-6", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "56\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Pierce", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Light Cannon",
+        "id": "5039-6698-f8fd-9242",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "3", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-2", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "32\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Pierce", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Medium Cannon",
+        "id": "1270-e8a9-1985-92c6",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "1", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-4", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "48\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Pierce", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Vehicle-mounted Medium Mortar",
+        "id": "378c-a824-98bb-1570",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "1", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-1", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "48\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Indirect-Fire, HE", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Vehicle-mounted Heavy Mortar",
+        "id": "e534-7777-242c-3935",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "1", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-1", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "48\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Indirect-Fire, HE", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Vehicle-mounted Flamethrower",
+        "id": "5baa-0f17-27f0-cf5d",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "12", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "28\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Burn", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Stationary Heavy Mortar",
+        "id": "58ba-2f04-1500-13bd",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "1", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-3", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "56\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Stationary, Indirect-Fire, HE", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Stationary Medium Mortar",
+        "id": "fbdd-673b-3888-b3d8",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "1", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-1", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "48\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Stationary, Indirect-Fire, HE", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Granade Launcher",
+        "id": "3da5-5d45-0b60-913e",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "2", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-1", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "14\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "HE", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Vehicle-mounted Granade Launcher",
+        "id": "f6b8-8ff9-99be-0b44",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "2", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-1", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "16\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "HE", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Vehicle-mounted Light Howitzer",
+        "id": "3cd0-6d0f-f9ba-76a3",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "1", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-2", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "48\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Indirect-Fire, HE", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Stationary Medium Howitzer",
+        "id": "074c-21ac-3835-1863",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "1", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-3", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "72\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Stationary, Indirect-Fire, HE", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Vehicle-mounted Heavy Howitzer",
+        "id": "ac46-8e01-b478-0e6f",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "1", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-4", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "64\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Indirect-Fire, HE", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Stationary Heavy Howitzer",
+        "id": "2d53-7e83-0944-fd3f",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "1", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-4", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "72\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Stationary, Indirect-Fire, HE", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Stationary Light Howitzer",
+        "id": "c989-ab35-d9aa-dd66",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "1", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-2", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "56\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Stationary, Indirect-Fire, HE", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Vehicle-mounted Medium Howitzer",
+        "id": "fc7b-e8ab-1379-599f",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "1", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-3", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "56\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Indirect-Fire, HE", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Recce",
+        "id": "42f5-f069-ae1a-57fd",
+        "hidden": false,
+        "typeId": "66d6-0302-22e1-f471",
+        "typeName": "Modules",
+        "characteristics": [{"name": "Rule", "$text": "This unit is counted as Scout Unit", "typeId": "7009-7386-be56-b8df"}]
+      },
+      {
+        "name": "Veteran",
+        "id": "b91c-2fc8-5729-aa9c",
+        "hidden": false,
+        "typeId": "66d6-0302-22e1-f471",
+        "typeName": "Modules",
+        "characteristics": [
+          {
+            "name": "Rule",
+            "$text": "This unit's Command characteristic is increased by 1. This unit passes morale test on 3+ instead of 4+",
+            "typeId": "7009-7386-be56-b8df"
+          }
+        ]
+      },
+      {
+        "name": "Expert Crew",
+        "id": "5977-8c62-6882-b68c",
+        "hidden": false,
+        "typeId": "66d6-0302-22e1-f471",
+        "typeName": "Modules",
+        "characteristics": [
+          {
+            "name": "Rule",
+            "$text": "This Vehicle unit always counts as Commanded. This Vehicle unit can Command one other unit. This Vehicle unit's Command characteristic is Increased by 1.",
+            "typeId": "7009-7386-be56-b8df"
+          }
+        ]
+      },
+      {
+        "name": "Elite",
+        "id": "6d30-c548-6b29-60cd",
+        "hidden": false,
+        "typeId": "66d6-0302-22e1-f471",
+        "typeName": "Modules",
+        "characteristics": [{"name": "Rule", "$text": "This Vehicle unit always counts as Commanded. This unit auto-passes first morale test. ", "typeId": "7009-7386-be56-b8df"}]
+      },
+      {
+        "name": "Fire Coordination",
+        "id": "d7f0-319c-eb3e-6ed3",
+        "hidden": false,
+        "typeId": "66d6-0302-22e1-f471",
+        "typeName": "Modules",
+        "characteristics": [
+          {
+            "name": "Rule",
+            "$text": "After the unit performs a ranged attack, it can select any previously inactive friendly unit within 6\" of any model in that unit; that unit then performs a ranged attack against the same target as the initial attack without expending its action.",
+            "typeId": "7009-7386-be56-b8df"
+          }
+        ]
+      },
+      {
+        "name": "Stealth",
+        "id": "3554-b3e4-085f-b7a3",
+        "hidden": false,
+        "typeId": "66d6-0302-22e1-f471",
+        "typeName": "Modules",
+        "characteristics": [
+          {
+            "name": "Rule",
+            "$text": "This unit cannot be the target of a ranged attack if it has not yet activated during this turn. This rule is ignored by units with the Fire Coordination and Recce rules.",
+            "typeId": "7009-7386-be56-b8df"
+          }
+        ]
+      },
+      {
+        "name": "Precise Fire (3)",
+        "id": "13fd-0ccd-a287-7ce0",
+        "hidden": false,
+        "typeId": "d656-77b2-b538-515b",
+        "typeName": "Modifiers",
+        "characteristics": [{"name": "Rule", "$text": "During an attack with any weapon, the unit may reroll 3 dies.", "typeId": "0027-a3ff-0553-60c9"}]
+      },
+      {
+        "name": "Precise Fire (1)",
+        "id": "707c-1034-4bc9-e656",
+        "hidden": false,
+        "typeId": "d656-77b2-b538-515b",
+        "typeName": "Modifiers",
+        "characteristics": [{"name": "Rule", "$text": "During an attack with any weapon, the unit may reroll 1 die.", "typeId": "0027-a3ff-0553-60c9"}]
+      },
+      {
+        "name": "Precise Fire (2)",
+        "id": "9792-5e98-71ee-82fd",
+        "hidden": false,
+        "typeId": "d656-77b2-b538-515b",
+        "typeName": "Modifiers",
+        "characteristics": [{"name": "Rule", "$text": "During an attack with any weapon, the unit may reroll 2 dies.", "typeId": "0027-a3ff-0553-60c9"}]
+      },
+      {
+        "name": "Engineers (2)",
+        "id": "fe4b-54fe-4668-b1dd",
+        "hidden": false,
+        "typeId": "d656-77b2-b538-515b",
+        "typeName": "Modifiers",
+        "characteristics": [{"name": "Rule", "$text": "This unit's Armor characteristic is increased by 2 while behind Cover.", "typeId": "0027-a3ff-0553-60c9"}]
+      },
+      {
+        "name": "Engineers (1)",
+        "id": "fb14-ab20-7c06-3723",
+        "hidden": false,
+        "typeId": "d656-77b2-b538-515b",
+        "typeName": "Modifiers",
+        "characteristics": [{"name": "Rule", "$text": "This unit's Armor characteristic is increased by 1 while behind Cover.", "typeId": "0027-a3ff-0553-60c9"}]
+      },
+      {
+        "name": "Engineers (3)",
+        "id": "8274-1a80-f1eb-6cdc",
+        "hidden": false,
+        "typeId": "d656-77b2-b538-515b",
+        "typeName": "Modifiers",
+        "characteristics": [{"name": "Rule", "$text": "This unit's Armor characteristic is increased by 3 while behind Cover.", "typeId": "0027-a3ff-0553-60c9"}]
+      },
+      {
+        "name": "Transport (3)",
+        "id": "f06c-f99e-2830-a046",
+        "hidden": false,
+        "typeId": "d656-77b2-b538-515b",
+        "typeName": "Modifiers",
+        "characteristics": [{"name": "Rule", "$text": "This unit can Transport three units while moving", "typeId": "0027-a3ff-0553-60c9"}]
+      },
+      {
+        "name": "Transport (1)",
+        "id": "9ae6-d2bd-f842-2f49",
+        "hidden": false,
+        "typeId": "d656-77b2-b538-515b",
+        "typeName": "Modifiers",
+        "characteristics": [{"name": "Rule", "$text": "This unit can Transport one unit while moving", "typeId": "0027-a3ff-0553-60c9"}]
+      },
+      {
+        "name": "Transport (2)",
+        "id": "8c76-c8a7-68bc-e236",
+        "hidden": false,
+        "typeId": "d656-77b2-b538-515b",
+        "typeName": "Modifiers",
+        "characteristics": [{"name": "Rule", "$text": "This unit can Transport two units while moving", "typeId": "0027-a3ff-0553-60c9"}]
+      },
+      {
+        "name": "Vehicle-mounted AT Weapon",
+        "id": "40be-ac29-7de6-6567",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "3", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-4", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "64\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "Pierce", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
+      },
+      {
+        "name": "Artillery",
+        "id": "a73b-462d-966a-a0c6",
+        "hidden": false,
+        "typeId": "66d6-0302-22e1-f471",
+        "typeName": "Modules",
+        "alias": [
+          "If this unit performs a ranged attack triggered by the Fire Coordination rule, for this attack increase Power Characteristic of this Weapon by 2. Fire Coordination rule's range is increased from 6\" to 18\" if you want to trigger it on this Unit."
+        ],
+        "characteristics": [{"name": "Rule", "$text": "", "typeId": "7009-7386-be56-b8df"}]
+      },
+      {
+        "name": "Extended HQ",
+        "id": "7d17-f9e0-2e4f-e685",
+        "hidden": false,
+        "typeId": "66d6-0302-22e1-f471",
+        "typeName": "Modules",
+        "alias": ["This unit's command range is extended from 32\" to 48\". If this unit has Fire Coordination module, it can perform bonus from that module twice."],
+        "characteristics": [{"name": "Rule", "$text": "", "typeId": "7009-7386-be56-b8df"}]
+      }
+    ]
+  }
+}

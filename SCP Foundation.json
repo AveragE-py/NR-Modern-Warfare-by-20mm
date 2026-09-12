@@ -1,0 +1,1167 @@
+{
+  "catalogue": {
+    "name": "United States of America",
+    "id": "59ed-bc0c-9426-539e",
+    "battleScribeVersion": "2.03",
+    "gameSystemId": "sys-859c-4de4-d4ed-27bf",
+    "gameSystemRevision": 1,
+    "library": false,
+    "revision": 2,
+    "type": "catalogue",
+    "entryLinks": [
+      {"name": "M1A2 Abrams HQ [Recce]", "id": "0bf2-0b48-d19d-5124", "hidden": false, "import": true, "targetId": "a17c-d77b-6402-2bba", "type": "selectionEntry"},
+      {"name": "M1A2 Abrams HQ [Regular]", "id": "7ea3-3924-e350-be7f", "hidden": false, "import": true, "targetId": "9fd8-609e-e2ec-40ad", "type": "selectionEntry"},
+      {"name": "M3 Bradley HQ [Recce]", "id": "2760-33dd-15d1-2ca8", "hidden": false, "import": true, "targetId": "9ef4-5716-3dd0-8fa6", "type": "selectionEntry"},
+      {
+        "name": "M1126 Stryker Vehicle Company",
+        "id": "4327-5312-330f-e9b8",
+        "hidden": false,
+        "import": true,
+        "targetId": "d15a-e2a7-2b44-fe2c",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "M1126 Stryker Recce Vehicle Company",
+        "id": "f798-a470-6afb-e0b7",
+        "hidden": false,
+        "import": true,
+        "targetId": "4162-8b20-aa4d-fb0b",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "M3 Bradley Recce Vehicle Company",
+        "id": "edbe-5679-978b-9024",
+        "hidden": false,
+        "import": true,
+        "targetId": "0538-de9b-d423-f522",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "M1A1 Abrams Armored Company",
+        "id": "821b-69b2-3ad1-fdab",
+        "hidden": false,
+        "import": true,
+        "targetId": "1c2d-a189-3c26-9c3d",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "M3 Bradley Vehicle Company",
+        "id": "537d-77f7-0136-5290",
+        "hidden": false,
+        "import": true,
+        "targetId": "e5e4-0499-fb99-6a4d",
+        "type": "selectionEntry"
+      },
+      {"name": "M577 HQ [Regular]", "id": "8092-eb45-9ac0-bc27", "hidden": false, "import": true, "targetId": "83d5-3c19-c942-e6f6", "type": "selectionEntry"},
+      {"name": "M3A3 BFIST HQ [Regular]", "id": "0dab-bd30-02ad-a31b", "hidden": false, "import": true, "targetId": "1fc9-240a-0bd9-5877", "type": "selectionEntry"},
+      {"name": "M3A3 BFIST HQ [Recce]", "id": "e607-35d1-fa4d-0276", "hidden": false, "import": true, "targetId": "d60a-4f60-e374-d55d", "type": "selectionEntry"},
+      {"name": "M1286 AMPV HQ [Regular]", "id": "a4cc-9434-c912-84ea", "hidden": false, "import": true, "targetId": "ee2a-49b8-71be-c6bf", "type": "selectionEntry"},
+      {"name": "M1130 Stryker HQ [Recce]", "id": "e2dc-7e0f-7491-fcad", "hidden": false, "import": true, "targetId": "ee0b-9621-6e89-e71a", "type": "selectionEntry"},
+      {
+        "name": "M1130 Stryker HQ [Regular]",
+        "id": "3cf9-9479-88da-73f0",
+        "hidden": false,
+        "import": true,
+        "targetId": "1e2c-b57e-22d7-853d",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "M1128 Stryker Vehicle Company",
+        "id": "e779-be67-352d-ec75",
+        "hidden": false,
+        "import": true,
+        "targetId": "cf16-10db-9945-32f5",
+        "type": "selectionEntry"
+      },
+      {"name": "M113", "id": "1b04-36b6-97e1-4053", "hidden": false, "import": true, "targetId": "1333-1fd9-7709-61b9", "type": "selectionEntry"},
+      {
+        "name": "LAV-25 Recce Vehicle Company",
+        "id": "0e29-65d4-1e60-8c08",
+        "hidden": false,
+        "import": true,
+        "targetId": "41c9-71fd-4c5b-32d1",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "M1117 ICV Guardian Vehicle Company",
+        "id": "1acc-a4af-d866-36f9",
+        "hidden": false,
+        "import": true,
+        "targetId": "8f34-877a-6b57-b64d",
+        "type": "selectionEntry"
+      }
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "M1A2 Abrams HQ [Recce]",
+        "id": "a17c-d77b-6402-2bba",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "HQ", "id": "8601-1c35-fc64-0ac2", "hidden": false, "primary": true, "targetId": "7f0d-c123-90d5-2f3f"}],
+        "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 17}],
+        "selectionEntries": [
+          {
+            "name": "Field Recce HQ",
+            "id": "dfab-1c73-b8e0-d911",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "56f2-5ed9-bbfb-d542-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "56f2-5ed9-bbfb-d542-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Fire Coordination", "id": "e33e-81cf-9f0e-c812", "hidden": false, "targetId": "d7f0-319c-eb3e-6ed3", "type": "profile"},
+              {"name": "Recce", "id": "b755-8977-e118-9ec3", "hidden": false, "targetId": "42f5-f069-ae1a-57fd", "type": "profile"}
+            ]
+          },
+          {
+            "name": "M1A2 Abrams",
+            "id": "777b-b4c9-9342-5df1",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {"id": "b11e-ec0c-d06c-5623-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 3},
+              {"id": "b11e-ec0c-d06c-5623-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}
+            ],
+            "infoLinks": [
+              {"name": "Vehicle-mounted MMG", "id": "aac6-17e4-d9e7-069c", "hidden": false, "targetId": "2672-2e95-fcbf-0446", "type": "profile"},
+              {"name": "Vehicle-mounted MMG", "id": "ac7f-b8a0-03de-d564", "hidden": false, "targetId": "2672-2e95-fcbf-0446", "type": "profile"},
+              {"name": "Heavy Cannon", "id": "482e-aa15-9cb4-4e65", "hidden": false, "targetId": "f7f8-0abd-5bf5-fb5a", "type": "profile"}
+            ],
+            "profiles": [
+              {
+                "name": "M1A2 Abrams ",
+                "id": "bcec-66be-ee26-6cb4",
+                "hidden": false,
+                "typeId": "6e0c-050a-3841-59c1",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "H", "$text": "5", "typeId": "8865-af39-2125-93e9"},
+                  {"name": "A", "$text": "6 + counter", "typeId": "6797-8a84-a4c0-8f64"},
+                  {"name": "S", "$text": "18\"", "typeId": "aa13-2639-57aa-1bc5"},
+                  {"name": "C", "$text": "3", "typeId": "4808-d28d-9b56-ed77"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M3 Bradley HQ [Recce]",
+        "id": "9ef4-5716-3dd0-8fa6",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "HQ", "id": "2b12-4828-04c9-e94d", "hidden": false, "primary": true, "targetId": "7f0d-c123-90d5-2f3f"}],
+        "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 7}],
+        "selectionEntries": [
+          {
+            "name": "Field Recce HQ",
+            "id": "4a49-d570-287b-9848",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "2b91-1367-2a45-4f35-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "2b91-1367-2a45-4f35-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Fire Coordination", "id": "b2a4-fad9-f8ba-67e6", "hidden": false, "targetId": "d7f0-319c-eb3e-6ed3", "type": "profile"},
+              {"name": "Recce", "id": "65cd-ec45-69a2-e1d5", "hidden": false, "targetId": "42f5-f069-ae1a-57fd", "type": "profile"}
+            ],
+            "selectionEntries": [
+              {
+                "name": "M3A3 BFIST HQ [Recce]",
+                "id": "bade-5cbd-7525-7fdf",
+                "hidden": false,
+                "import": true,
+                "type": "unit",
+                "categoryLinks": [{"name": "HQ", "id": "30b8-26b3-341a-e103", "hidden": false, "primary": true, "targetId": "7f0d-c123-90d5-2f3f"}],
+                "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 5}],
+                "selectionEntries": [
+                  {
+                    "name": "M3A3 BFIST",
+                    "id": "7207-a1b8-99cf-3c78",
+                    "hidden": false,
+                    "import": true,
+                    "type": "model",
+                    "constraints": [
+                      {"id": "3c88-4864-1998-9901-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 3},
+                      {"id": "3c88-4864-1998-9901-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}
+                    ],
+                    "infoLinks": [
+                      {"name": "Vehicle-mounted MMG", "id": "75c5-9fe5-8792-12b5", "hidden": false, "targetId": "2672-2e95-fcbf-0446", "type": "profile"},
+                      {"name": "Light Cannon", "id": "ccb4-a881-541d-2492", "hidden": false, "targetId": "5039-6698-f8fd-9242", "type": "profile"},
+                      {"name": "Engineers (1)", "id": "e093-41c4-68d3-1775", "hidden": false, "targetId": "fb14-ab20-7c06-3723", "type": "profile"},
+                      {"name": "Transport (1)", "id": "eceb-c917-8443-e36d", "hidden": false, "targetId": "9ae6-d2bd-f842-2f49", "type": "profile"}
+                    ],
+                    "profiles": [
+                      {
+                        "name": "M3A3 BFIST",
+                        "id": "dbaf-385e-34f3-4b51",
+                        "hidden": false,
+                        "typeId": "6e0c-050a-3841-59c1",
+                        "typeName": "Unit",
+                        "characteristics": [
+                          {"name": "H", "$text": "4", "typeId": "8865-af39-2125-93e9"},
+                          {"name": "A", "$text": "3", "typeId": "6797-8a84-a4c0-8f64"},
+                          {"name": "S", "$text": "18\"", "typeId": "aa13-2639-57aa-1bc5"},
+                          {"name": "C", "$text": "4", "typeId": "4808-d28d-9b56-ed77"}
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Field Recce HQ",
+                "id": "d07c-e164-976a-ec2c",
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {"id": "1a26-5c0b-5824-742c-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                  {"id": "1a26-5c0b-5824-742c-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                ],
+                "infoLinks": [
+                  {"name": "Fire Coordination", "id": "c8cb-5069-98cc-315e", "hidden": false, "targetId": "d7f0-319c-eb3e-6ed3", "type": "profile"},
+                  {"name": "Recce", "id": "9fb1-5c3c-caab-154c", "hidden": false, "targetId": "42f5-f069-ae1a-57fd", "type": "profile"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "M3 Bradley",
+            "id": "3166-f448-6b4f-46be",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {"id": "43df-1251-3285-cfdc-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 3},
+              {"id": "43df-1251-3285-cfdc-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}
+            ],
+            "infoLinks": [
+              {"name": "Vehicle-mounted MMG", "id": "f156-f5e8-14be-fa9a", "hidden": false, "targetId": "2672-2e95-fcbf-0446", "type": "profile"},
+              {"name": "Light Cannon", "id": "bf11-9ea6-2d77-6ccd", "hidden": false, "targetId": "5039-6698-f8fd-9242", "type": "profile"},
+              {"name": "Vehicle-mounted AT Weapon", "id": "fda0-ff5f-81a8-edea", "hidden": false, "targetId": "40be-ac29-7de6-6567", "type": "profile"},
+              {"name": "Engineers (1)", "id": "ecc8-9b17-04b7-b634", "hidden": false, "targetId": "fb14-ab20-7c06-3723", "type": "profile"},
+              {"name": "Transport (1)", "id": "7e4b-06b0-4e44-7adc", "hidden": false, "targetId": "9ae6-d2bd-f842-2f49", "type": "profile"}
+            ],
+            "profiles": [
+              {
+                "name": "M3 Bradley",
+                "id": "31ed-2e00-1da5-bf04",
+                "hidden": false,
+                "typeId": "6e0c-050a-3841-59c1",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "H", "$text": "4", "typeId": "8865-af39-2125-93e9"},
+                  {"name": "A", "$text": "3", "typeId": "6797-8a84-a4c0-8f64"},
+                  {"name": "S", "$text": "18\"", "typeId": "aa13-2639-57aa-1bc5"},
+                  {"name": "C", "$text": "4", "typeId": "4808-d28d-9b56-ed77"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M1126 Stryker Vehicle Company",
+        "id": "d15a-e2a7-2b44-fe2c",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Vehicle", "id": "ac5d-9267-4601-3e2b", "hidden": false, "primary": true, "targetId": "7db6-6f0d-58cb-bd06"}],
+        "constraints": [{"id": "83ea-5096-2e2c-77b3", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3}],
+        "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 6}],
+        "selectionEntries": [
+          {
+            "name": "M1126 Stryker",
+            "id": "5c13-1049-72e9-28a4",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "type": "model",
+            "constraints": [
+              {"id": "1f2e-4ab9-908c-02c3-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "1f2e-4ab9-908c-02c3-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 4}
+            ],
+            "infoLinks": [
+              {"name": "Vehicle-mounted MMG", "id": "a8f3-1712-bce2-913a", "hidden": false, "targetId": "2672-2e95-fcbf-0446", "type": "profile"},
+              {"name": "Transport (2)", "id": "a100-129e-8376-8b21", "hidden": false, "targetId": "8c76-c8a7-68bc-e236", "type": "profile"}
+            ],
+            "profiles": [
+              {
+                "name": "M1126 Stryker",
+                "id": "a60e-bc4d-93fa-83d7",
+                "hidden": false,
+                "typeId": "6e0c-050a-3841-59c1",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "H", "$text": "4", "typeId": "8865-af39-2125-93e9"},
+                  {"name": "A", "$text": "2", "typeId": "6797-8a84-a4c0-8f64"},
+                  {"name": "S", "$text": "12\"", "typeId": "aa13-2639-57aa-1bc5"},
+                  {"name": "C", "$text": "5", "typeId": "4808-d28d-9b56-ed77"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Veterans",
+            "id": "2e92-5985-193c-c0dd",
+            "hidden": false,
+            "import": true,
+            "page": "",
+            "sortIndex": 2,
+            "type": "upgrade",
+            "constraints": [{"id": "1c15-4c24-827e-74e1", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 3}],
+            "infoLinks": [{"name": "Veteran", "id": "7850-6b62-932a-6538", "hidden": false, "targetId": "b91c-2fc8-5729-aa9c", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "M1A2 Abrams HQ [Regular]",
+        "id": "9fd8-609e-e2ec-40ad",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "HQ", "id": "9b88-d0c4-1436-1ff0", "hidden": false, "primary": true, "targetId": "7f0d-c123-90d5-2f3f"}],
+        "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 15}],
+        "selectionEntries": [
+          {
+            "name": "M1A2 Abrams",
+            "id": "10fd-758e-1be8-3d6e",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {"id": "fb94-a0ab-1696-47c5-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 3},
+              {"id": "fb94-a0ab-1696-47c5-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}
+            ],
+            "infoLinks": [
+              {"name": "Vehicle-mounted MMG", "id": "035f-a6a3-4b64-ffd2", "hidden": false, "targetId": "2672-2e95-fcbf-0446", "type": "profile"},
+              {"name": "Vehicle-mounted MMG", "id": "88fc-5f65-4995-1567", "hidden": false, "targetId": "2672-2e95-fcbf-0446", "type": "profile"},
+              {"name": "Heavy Cannon", "id": "93bd-03b6-1780-5ba5", "hidden": false, "targetId": "f7f8-0abd-5bf5-fb5a", "type": "profile"}
+            ],
+            "profiles": [
+              {
+                "name": "M1A2 Abrams ",
+                "id": "418c-98d5-ad97-2723",
+                "hidden": false,
+                "typeId": "6e0c-050a-3841-59c1",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "H", "$text": "5", "typeId": "8865-af39-2125-93e9"},
+                  {"name": "A", "$text": "6 + counter", "typeId": "6797-8a84-a4c0-8f64"},
+                  {"name": "S", "$text": "18\"", "typeId": "aa13-2639-57aa-1bc5"},
+                  {"name": "C", "$text": "3", "typeId": "4808-d28d-9b56-ed77"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Field Regular HQ",
+            "id": "e42e-1ab3-71ec-2f69",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "4de1-a241-419f-0bd5-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "4de1-a241-419f-0bd5-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Fire Coordination", "id": "aad6-995a-1cb4-ddf9", "hidden": false, "targetId": "d7f0-319c-eb3e-6ed3", "type": "profile"},
+              {"name": "Expert Crew", "id": "60ef-f208-848a-422e", "hidden": false, "targetId": "5977-8c62-6882-b68c", "type": "profile"},
+              {"name": "Precise Fire (1)", "id": "31e6-bc1c-1fdf-6ba8", "hidden": false, "targetId": "707c-1034-4bc9-e656", "type": "profile"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M1126 Stryker Recce Vehicle Company",
+        "id": "4162-8b20-aa4d-fb0b",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Vehicle", "id": "1445-9581-909f-29f1", "hidden": false, "primary": true, "targetId": "7db6-6f0d-58cb-bd06"}],
+        "constraints": [{"id": "03ca-e749-fd40-673d", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3}],
+        "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 7}],
+        "selectionEntries": [
+          {
+            "name": "M1126 Stryker",
+            "id": "de30-afa6-467f-36c4",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {"id": "0043-46e2-8680-3377-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "0043-46e2-8680-3377-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 4}
+            ],
+            "infoLinks": [
+              {"name": "Vehicle-mounted MMG", "id": "83dc-0ff2-c767-e0ad", "hidden": false, "targetId": "2672-2e95-fcbf-0446", "type": "profile"},
+              {"name": "Transport (2)", "id": "9238-2ec8-9775-e759", "hidden": false, "targetId": "8c76-c8a7-68bc-e236", "type": "profile"},
+              {"name": "Recce", "id": "55be-7831-36a4-e70b", "hidden": false, "targetId": "42f5-f069-ae1a-57fd", "type": "profile"}
+            ],
+            "profiles": [
+              {
+                "name": "M1126 Stryker",
+                "id": "a4ac-3c4c-e4d0-07c9",
+                "hidden": false,
+                "typeId": "6e0c-050a-3841-59c1",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "H", "$text": "4", "typeId": "8865-af39-2125-93e9"},
+                  {"name": "A", "$text": "2", "typeId": "6797-8a84-a4c0-8f64"},
+                  {"name": "S", "$text": "12\"", "typeId": "aa13-2639-57aa-1bc5"},
+                  {"name": "C", "$text": "5", "typeId": "4808-d28d-9b56-ed77"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Veterans",
+            "id": "6d51-f076-5895-956f",
+            "hidden": false,
+            "import": true,
+            "page": "",
+            "type": "upgrade",
+            "constraints": [{"id": "0241-60f4-d082-e487", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 3}],
+            "infoLinks": [{"name": "Veteran", "id": "bb6d-d4ca-8493-61a7", "hidden": false, "targetId": "b91c-2fc8-5729-aa9c", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "M3 Bradley Recce Vehicle Company",
+        "id": "0538-de9b-d423-f522",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Vehicle", "id": "3cd1-026d-d3ef-5cf8", "hidden": false, "primary": true, "targetId": "7db6-6f0d-58cb-bd06"}],
+        "constraints": [{"id": "3493-1023-66f5-1746", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3}],
+        "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 9}],
+        "selectionEntries": [
+          {
+            "name": "M3 Bradley",
+            "id": "15ec-e728-9ce7-2fbb",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {"id": "6867-9442-fabc-1405-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 3},
+              {"id": "6867-9442-fabc-1405-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}
+            ],
+            "infoLinks": [
+              {"name": "Vehicle-mounted MMG", "id": "33ca-95dd-2928-629c", "hidden": false, "targetId": "2672-2e95-fcbf-0446", "type": "profile"},
+              {"name": "Light Cannon", "id": "8cf2-009e-14c5-bda0", "hidden": false, "targetId": "5039-6698-f8fd-9242", "type": "profile"},
+              {"name": "Vehicle-mounted AT Weapon", "id": "ed0a-c10f-d918-10d7", "hidden": false, "targetId": "40be-ac29-7de6-6567", "type": "profile"},
+              {"name": "Transport (1)", "id": "59f2-193b-1b3a-e637", "hidden": false, "targetId": "9ae6-d2bd-f842-2f49", "type": "profile"},
+              {"name": "Recce", "id": "5d30-ce4e-bc75-b1f2", "hidden": false, "targetId": "42f5-f069-ae1a-57fd", "type": "profile"}
+            ],
+            "profiles": [
+              {
+                "name": "M3 Bradley",
+                "id": "147d-ffde-047b-0348",
+                "hidden": false,
+                "typeId": "6e0c-050a-3841-59c1",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "H", "$text": "4", "typeId": "8865-af39-2125-93e9"},
+                  {"name": "A", "$text": "3", "typeId": "6797-8a84-a4c0-8f64"},
+                  {"name": "S", "$text": "18\"", "typeId": "aa13-2639-57aa-1bc5"},
+                  {"name": "C", "$text": "4", "typeId": "4808-d28d-9b56-ed77"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Veterans",
+            "id": "19d7-7445-7002-bd30",
+            "hidden": false,
+            "import": true,
+            "page": "",
+            "type": "upgrade",
+            "constraints": [{"id": "3865-6a69-1870-0d7b", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 3}],
+            "infoLinks": [{"name": "Veteran", "id": "79f5-b846-2ec1-a930", "hidden": false, "targetId": "b91c-2fc8-5729-aa9c", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "M1A1 Abrams Armored Company",
+        "id": "1c2d-a189-3c26-9c3d",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Vehicle", "id": "b20a-d97f-7208-539e", "hidden": false, "primary": true, "targetId": "7db6-6f0d-58cb-bd06"}],
+        "constraints": [{"id": "b9b9-56eb-6325-401c", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3}],
+        "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 12}],
+        "selectionEntries": [
+          {
+            "name": "M1A1 Abrams ",
+            "id": "f419-e11d-c194-d633",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "type": "model",
+            "constraints": [
+              {"id": "5478-daaa-39e3-3fb3-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 3},
+              {"id": "5478-daaa-39e3-3fb3-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}
+            ],
+            "infoLinks": [
+              {"name": "Vehicle-mounted MMG", "id": "34a8-bc68-4e39-5b8b", "hidden": false, "targetId": "2672-2e95-fcbf-0446", "type": "profile"},
+              {"name": "Heavy Cannon", "id": "0859-8052-e4e9-9a6a", "hidden": false, "targetId": "f7f8-0abd-5bf5-fb5a", "type": "profile"},
+              {"name": "Vehicle-mounted MMG", "id": "d4a2-d3f9-7fd1-6f19", "hidden": false, "targetId": "2672-2e95-fcbf-0446", "type": "profile"}
+            ],
+            "profiles": [
+              {
+                "name": "M1A1 Abrams ",
+                "id": "840f-9942-32e0-acf2",
+                "hidden": false,
+                "typeId": "6e0c-050a-3841-59c1",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "H", "$text": "5", "typeId": "8865-af39-2125-93e9"},
+                  {"name": "A", "$text": "6", "typeId": "6797-8a84-a4c0-8f64"},
+                  {"name": "S", "$text": "18\"", "typeId": "aa13-2639-57aa-1bc5"},
+                  {"name": "C", "$text": "5", "typeId": "4808-d28d-9b56-ed77"}
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Veterans",
+                "id": "df82-e166-3f42-0356",
+                "hidden": false,
+                "import": true,
+                "page": "",
+                "type": "upgrade",
+                "constraints": [{"id": "3d83-4f47-c76c-3ed8", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+                "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 3}],
+                "infoLinks": [{"name": "Veteran", "id": "fd83-08b1-ad66-8e91", "hidden": false, "targetId": "b91c-2fc8-5729-aa9c", "type": "profile"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M3 Bradley Vehicle Company",
+        "id": "e5e4-0499-fb99-6a4d",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Vehicle", "id": "e19e-6977-4f11-57d9", "hidden": false, "primary": true, "targetId": "7db6-6f0d-58cb-bd06"}],
+        "constraints": [{"id": "9f7b-8606-12a1-5265", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3}],
+        "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 8}],
+        "selectionEntries": [
+          {
+            "name": "M3 Bradley",
+            "id": "9455-5c10-187c-7a7a",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {"id": "c253-a82a-d764-9868-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 3},
+              {"id": "c253-a82a-d764-9868-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}
+            ],
+            "infoLinks": [
+              {"name": "Vehicle-mounted MMG", "id": "d45e-ddd7-7e90-ada9", "hidden": false, "targetId": "2672-2e95-fcbf-0446", "type": "profile"},
+              {"name": "Light Cannon", "id": "8be4-445a-d1a5-c0f3", "hidden": false, "targetId": "5039-6698-f8fd-9242", "type": "profile"},
+              {"name": "Vehicle-mounted AT Weapon", "id": "7491-ee40-615e-b9e1", "hidden": false, "targetId": "40be-ac29-7de6-6567", "type": "profile"},
+              {"name": "Engineers (1)", "id": "dd33-dbf1-47dc-3245", "hidden": false, "targetId": "fb14-ab20-7c06-3723", "type": "profile"},
+              {"name": "Transport (1)", "id": "ceb6-982d-3560-86a9", "hidden": false, "targetId": "9ae6-d2bd-f842-2f49", "type": "profile"}
+            ],
+            "profiles": [
+              {
+                "name": "M3 Bradley",
+                "id": "7c51-e95b-d04a-6cdd",
+                "hidden": false,
+                "typeId": "6e0c-050a-3841-59c1",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "H", "$text": "4", "typeId": "8865-af39-2125-93e9"},
+                  {"name": "A", "$text": "3", "typeId": "6797-8a84-a4c0-8f64"},
+                  {"name": "S", "$text": "18\"", "typeId": "aa13-2639-57aa-1bc5"},
+                  {"name": "C", "$text": "4", "typeId": "4808-d28d-9b56-ed77"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Veterans",
+            "id": "9b4e-4e73-425e-14c1",
+            "hidden": false,
+            "import": true,
+            "page": "",
+            "type": "upgrade",
+            "constraints": [{"id": "1922-4f4c-8ae2-fdb5", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 3}],
+            "infoLinks": [{"name": "Veteran", "id": "e31c-d4b0-070d-227a", "hidden": false, "targetId": "b91c-2fc8-5729-aa9c", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "M577 HQ [Regular]",
+        "id": "83d5-3c19-c942-e6f6",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "HQ", "id": "5a03-a41b-e166-aa70", "hidden": false, "primary": true, "targetId": "7f0d-c123-90d5-2f3f"}],
+        "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 2}],
+        "selectionEntries": [
+          {
+            "name": "M577",
+            "id": "9a23-8621-bca7-c322",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {"id": "2c21-a46d-b989-c0d8-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "2c21-a46d-b989-c0d8-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "profiles": [
+              {
+                "name": "M577",
+                "id": "dba9-e3cf-439d-7ef4",
+                "hidden": false,
+                "typeId": "6e0c-050a-3841-59c1",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "H", "$text": "3", "typeId": "8865-af39-2125-93e9"},
+                  {"name": "A", "$text": "1", "typeId": "6797-8a84-a4c0-8f64"},
+                  {"name": "S", "$text": "12\"", "typeId": "aa13-2639-57aa-1bc5"},
+                  {"name": "C", "$text": "6", "typeId": "4808-d28d-9b56-ed77"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Field HQ",
+            "id": "0cc9-9f3e-76fa-8423",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "2ccc-4c8e-cd45-7aa5-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "2ccc-4c8e-cd45-7aa5-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Fire Coordination", "id": "de69-7e66-65e2-ff6d", "hidden": false, "targetId": "d7f0-319c-eb3e-6ed3", "type": "profile"},
+              {"name": "Extended HQ", "id": "f468-8c7f-85bf-ff5e", "hidden": false, "targetId": "7d17-f9e0-2e4f-e685", "type": "profile"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M3A3 BFIST HQ [Regular]",
+        "id": "1fc9-240a-0bd9-5877",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "HQ", "id": "1959-1e5c-b5a4-d84a", "hidden": false, "primary": true, "targetId": "7f0d-c123-90d5-2f3f"}],
+        "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 7}],
+        "selectionEntries": [
+          {
+            "name": "M3A3 BFIST",
+            "id": "9774-40d5-2f87-fcbe",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {"id": "8d0a-3edd-e356-e098-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 3},
+              {"id": "8d0a-3edd-e356-e098-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}
+            ],
+            "infoLinks": [
+              {"name": "Vehicle-mounted MMG", "id": "996a-f298-94f2-54cf", "hidden": false, "targetId": "2672-2e95-fcbf-0446", "type": "profile"},
+              {"name": "Light Cannon", "id": "8403-c8c8-8fea-3feb", "hidden": false, "targetId": "5039-6698-f8fd-9242", "type": "profile"},
+              {"name": "Engineers (1)", "id": "e8e0-f002-f866-8b34", "hidden": false, "targetId": "fb14-ab20-7c06-3723", "type": "profile"},
+              {"name": "Transport (1)", "id": "e3c6-2439-2742-19ad", "hidden": false, "targetId": "9ae6-d2bd-f842-2f49", "type": "profile"}
+            ],
+            "profiles": [
+              {
+                "name": "M3A3 BFIST",
+                "id": "afeb-0a8b-9715-0b1c",
+                "hidden": false,
+                "typeId": "6e0c-050a-3841-59c1",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "H", "$text": "4", "typeId": "8865-af39-2125-93e9"},
+                  {"name": "A", "$text": "3", "typeId": "6797-8a84-a4c0-8f64"},
+                  {"name": "S", "$text": "18\"", "typeId": "aa13-2639-57aa-1bc5"},
+                  {"name": "C", "$text": "4", "typeId": "4808-d28d-9b56-ed77"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Field HQ",
+            "id": "4a61-a8fa-1229-336e",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "84f1-8f44-c1f6-ff6b", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "7d0a-cd87-3a70-5023", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Fire Coordination", "id": "e3b1-f006-e330-6c4c", "hidden": false, "targetId": "d7f0-319c-eb3e-6ed3", "type": "profile"},
+              {"name": "Extended HQ", "id": "d237-5692-314f-ba14", "hidden": false, "targetId": "7d17-f9e0-2e4f-e685", "type": "profile"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M3A3 BFIST HQ [Recce]",
+        "id": "d60a-4f60-e374-d55d",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "HQ", "id": "01ea-c979-8898-9f83", "hidden": false, "primary": true, "targetId": "7f0d-c123-90d5-2f3f"}],
+        "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 8}],
+        "selectionEntries": [
+          {
+            "name": "M3A3 BFIST",
+            "id": "d193-85c6-9b39-2733",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {"id": "6ea7-be62-24e9-e2a7-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 3},
+              {"id": "6ea7-be62-24e9-e2a7-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}
+            ],
+            "infoLinks": [
+              {"name": "Vehicle-mounted MMG", "id": "8bcc-d961-fde4-51d6", "hidden": false, "targetId": "2672-2e95-fcbf-0446", "type": "profile"},
+              {"name": "Light Cannon", "id": "dcab-2258-dea0-999e", "hidden": false, "targetId": "5039-6698-f8fd-9242", "type": "profile"},
+              {"name": "Engineers (1)", "id": "03cc-85db-a912-6675", "hidden": false, "targetId": "fb14-ab20-7c06-3723", "type": "profile"},
+              {"name": "Transport (1)", "id": "d4c6-4cb5-0cf5-9bfd", "hidden": false, "targetId": "9ae6-d2bd-f842-2f49", "type": "profile"}
+            ],
+            "profiles": [
+              {
+                "name": "M3A3 BFIST",
+                "id": "96e3-0daf-0442-251c",
+                "hidden": false,
+                "typeId": "6e0c-050a-3841-59c1",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "H", "$text": "4", "typeId": "8865-af39-2125-93e9"},
+                  {"name": "A", "$text": "3", "typeId": "6797-8a84-a4c0-8f64"},
+                  {"name": "S", "$text": "18\"", "typeId": "aa13-2639-57aa-1bc5"},
+                  {"name": "C", "$text": "4", "typeId": "4808-d28d-9b56-ed77"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Field Recce HQ (Extended)",
+            "id": "01d1-98f5-4a66-9771",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "dbc4-cd57-9fb6-a8b3-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "dbc4-cd57-9fb6-a8b3-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Fire Coordination", "id": "d2e5-f168-06e5-76cd", "hidden": false, "targetId": "d7f0-319c-eb3e-6ed3", "type": "profile"},
+              {"name": "Recce", "id": "1729-0200-b8bb-9be1", "hidden": false, "targetId": "42f5-f069-ae1a-57fd", "type": "profile"},
+              {"name": "Extended HQ", "id": "897d-fa96-5495-9fd5", "hidden": false, "targetId": "7d17-f9e0-2e4f-e685", "type": "profile"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M1286 AMPV HQ [Regular]",
+        "id": "ee2a-49b8-71be-c6bf",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "HQ", "id": "09bb-3b5b-1c78-f9d6", "hidden": false, "primary": true, "targetId": "7f0d-c123-90d5-2f3f"}],
+        "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 3}],
+        "selectionEntries": [
+          {
+            "name": "M1286 AMPV",
+            "id": "556d-5055-c82c-4cab",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {"id": "cf23-b106-41ce-4184-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "cf23-b106-41ce-4184-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [{"name": "Vehicle-mounted HMG", "id": "0b42-c79a-2098-4459", "hidden": false, "targetId": "6243-9d65-3a45-64c4", "type": "profile"}],
+            "profiles": [
+              {
+                "name": "M1286 AMPV",
+                "id": "263f-d215-619e-e149",
+                "hidden": false,
+                "typeId": "6e0c-050a-3841-59c1",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "H", "$text": "3", "typeId": "8865-af39-2125-93e9"},
+                  {"name": "A", "$text": "3", "typeId": "6797-8a84-a4c0-8f64"},
+                  {"name": "S", "$text": "12\"", "typeId": "aa13-2639-57aa-1bc5"},
+                  {"name": "C", "$text": "6", "typeId": "4808-d28d-9b56-ed77"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Field HQ",
+            "id": "5a28-7342-cb41-bac0",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "3e6f-2b60-fede-e9e6", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "b54f-69a7-8c55-2134", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Fire Coordination", "id": "0e0b-3de8-e3bf-3fbd", "hidden": false, "targetId": "d7f0-319c-eb3e-6ed3", "type": "profile"},
+              {"name": "Extended HQ", "id": "01fd-60af-9635-ba9a", "hidden": false, "targetId": "7d17-f9e0-2e4f-e685", "type": "profile"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M1130 Stryker HQ [Regular]",
+        "id": "1e2c-b57e-22d7-853d",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "HQ", "id": "009e-e997-499e-4f14", "hidden": false, "primary": true, "targetId": "7f0d-c123-90d5-2f3f"}],
+        "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 5}],
+        "selectionEntries": [
+          {
+            "name": "M1130 Stryker",
+            "id": "95a3-b97e-43c5-555c",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {"id": "c1f4-abb1-5d64-3cfe-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "c1f4-abb1-5d64-3cfe-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 4}
+            ],
+            "infoLinks": [
+              {"name": "Vehicle-mounted MMG", "id": "472e-8f29-3168-a8ad", "hidden": false, "targetId": "2672-2e95-fcbf-0446", "type": "profile"},
+              {"name": "Transport (2)", "id": "e9ea-6a6f-6f3f-c143", "hidden": false, "targetId": "8c76-c8a7-68bc-e236", "type": "profile"}
+            ],
+            "profiles": [
+              {
+                "name": "M1130 Stryker",
+                "id": "daf5-502b-991b-ebef",
+                "hidden": false,
+                "typeId": "6e0c-050a-3841-59c1",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "H", "$text": "4", "typeId": "8865-af39-2125-93e9"},
+                  {"name": "A", "$text": "2", "typeId": "6797-8a84-a4c0-8f64"},
+                  {"name": "S", "$text": "12\"", "typeId": "aa13-2639-57aa-1bc5"},
+                  {"name": "C", "$text": "5", "typeId": "4808-d28d-9b56-ed77"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Field Reserve HQ",
+            "id": "3e2d-5d80-5fb9-0069",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "1527-d1ab-675f-ec03-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "1527-d1ab-675f-ec03-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Fire Coordination", "id": "9e80-9b47-2060-72c7", "hidden": false, "targetId": "d7f0-319c-eb3e-6ed3", "type": "profile"},
+              {"name": "Recce", "id": "ac10-fece-72ac-8ae5", "hidden": false, "targetId": "42f5-f069-ae1a-57fd", "type": "profile"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M1130 Stryker HQ [Recce]",
+        "id": "ee0b-9621-6e89-e71a",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "HQ", "id": "a4f9-8b3d-5395-bd20", "hidden": false, "primary": true, "targetId": "7f0d-c123-90d5-2f3f"}],
+        "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 6}],
+        "selectionEntries": [
+          {
+            "name": "M1130 Stryker",
+            "id": "a430-5471-e7ab-c742",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {"id": "1184-42ce-ecfb-9c01-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "1184-42ce-ecfb-9c01-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 4}
+            ],
+            "infoLinks": [
+              {"name": "Vehicle-mounted MMG", "id": "0dc8-4889-562b-dbe7", "hidden": false, "targetId": "2672-2e95-fcbf-0446", "type": "profile"},
+              {"name": "Transport (2)", "id": "a45b-dfde-41f7-cef6", "hidden": false, "targetId": "8c76-c8a7-68bc-e236", "type": "profile"}
+            ],
+            "profiles": [
+              {
+                "name": "M1130 Stryker",
+                "id": "8917-9cb2-74fe-a9e3",
+                "hidden": false,
+                "typeId": "6e0c-050a-3841-59c1",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "H", "$text": "4", "typeId": "8865-af39-2125-93e9"},
+                  {"name": "A", "$text": "2", "typeId": "6797-8a84-a4c0-8f64"},
+                  {"name": "S", "$text": "12\"", "typeId": "aa13-2639-57aa-1bc5"},
+                  {"name": "C", "$text": "5", "typeId": "4808-d28d-9b56-ed77"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Field Recce HQ",
+            "id": "8540-9792-0c54-422a",
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {"id": "5627-0628-a36d-2662-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+              {"id": "5627-0628-a36d-2662-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+            ],
+            "infoLinks": [
+              {"name": "Fire Coordination", "id": "3598-6336-2bd4-1c06", "hidden": false, "targetId": "d7f0-319c-eb3e-6ed3", "type": "profile"},
+              {"name": "Expert Crew", "id": "c0d8-9931-b09b-4871", "hidden": false, "targetId": "5977-8c62-6882-b68c", "type": "profile"},
+              {"name": "Precise Fire (1)", "id": "b3de-887b-bad8-362b", "hidden": false, "targetId": "707c-1034-4bc9-e656", "type": "profile"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M1128 Stryker Vehicle Company",
+        "id": "cf16-10db-9945-32f5",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Vehicle", "id": "37b6-6b68-a922-d8ac", "hidden": false, "primary": true, "targetId": "7db6-6f0d-58cb-bd06"}],
+        "constraints": [{"id": "1aff-4ce1-11a3-6ec1", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3}],
+        "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 8}],
+        "selectionEntries": [
+          {
+            "name": "M1128 Stryker",
+            "id": "e04b-6782-fc24-bb42",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "type": "model",
+            "constraints": [
+              {"id": "7618-9306-b9e6-d4ef-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 3},
+              {"id": "7618-9306-b9e6-d4ef-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 3}
+            ],
+            "infoLinks": [
+              {"name": "Transport (2)", "id": "36a1-9a93-d56c-8980", "hidden": false, "targetId": "8c76-c8a7-68bc-e236", "type": "profile"},
+              {"name": "Recce", "id": "a13e-11dc-5c15-9cba", "hidden": false, "targetId": "42f5-f069-ae1a-57fd", "type": "profile"},
+              {"name": "Heavy Cannon", "id": "a451-237e-20ac-a1a7", "hidden": false, "targetId": "f7f8-0abd-5bf5-fb5a", "type": "profile"}
+            ],
+            "profiles": [
+              {
+                "name": "M1128 Stryker",
+                "id": "0696-a93c-295b-0975",
+                "hidden": false,
+                "typeId": "6e0c-050a-3841-59c1",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "H", "$text": "4", "typeId": "8865-af39-2125-93e9"},
+                  {"name": "A", "$text": "2", "typeId": "6797-8a84-a4c0-8f64"},
+                  {"name": "S", "$text": "12\"", "typeId": "aa13-2639-57aa-1bc5"},
+                  {"name": "C", "$text": "5", "typeId": "4808-d28d-9b56-ed77"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Veterans",
+            "id": "542c-e32d-d5fd-f352",
+            "hidden": false,
+            "import": true,
+            "page": "",
+            "sortIndex": 2,
+            "type": "upgrade",
+            "constraints": [{"id": "f411-0ab1-9590-febd", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 3}],
+            "infoLinks": [{"name": "Veteran", "id": "1bfa-7541-37f6-e976", "hidden": false, "targetId": "b91c-2fc8-5729-aa9c", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "M113 Vehicle Company",
+        "id": "1333-1fd9-7709-61b9",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Vehicle", "id": "670b-09c5-ca85-b6cf", "hidden": false, "primary": true, "targetId": "7db6-6f0d-58cb-bd06"}],
+        "constraints": [{"id": "b816-95ff-7a42-da82", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3}],
+        "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 3}],
+        "selectionEntries": [
+          {
+            "name": "M113",
+            "id": "7037-71a5-2754-ba18",
+            "hidden": false,
+            "import": true,
+            "sortIndex": 1,
+            "type": "model",
+            "constraints": [
+              {"id": "41d1-fa5f-079a-f168-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "41d1-fa5f-079a-f168-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 4}
+            ],
+            "infoLinks": [
+              {"name": "Vehicle-mounted MMG", "id": "a213-27f6-8b84-8a20", "hidden": false, "targetId": "2672-2e95-fcbf-0446", "type": "profile"},
+              {"name": "Transport (2)", "id": "0df8-23e8-7862-ac14", "hidden": false, "targetId": "8c76-c8a7-68bc-e236", "type": "profile"}
+            ],
+            "profiles": [
+              {
+                "name": "M113",
+                "id": "b300-997e-1963-2e73",
+                "hidden": false,
+                "typeId": "6e0c-050a-3841-59c1",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "H", "$text": "4", "typeId": "8865-af39-2125-93e9"},
+                  {"name": "A", "$text": "1", "typeId": "6797-8a84-a4c0-8f64"},
+                  {"name": "S", "$text": "14\"", "typeId": "aa13-2639-57aa-1bc5"},
+                  {"name": "C", "$text": "5", "typeId": "4808-d28d-9b56-ed77"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Veterans",
+            "id": "237d-0aba-fc35-c26d",
+            "hidden": false,
+            "import": true,
+            "page": "",
+            "sortIndex": 2,
+            "type": "upgrade",
+            "constraints": [{"id": "3dad-d5f1-e99f-1729", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 2}],
+            "infoLinks": [{"name": "Veteran", "id": "191d-1ee9-abdd-e1e7", "hidden": false, "targetId": "b91c-2fc8-5729-aa9c", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "LAV-25 Recce Vehicle Company",
+        "id": "41c9-71fd-4c5b-32d1",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Vehicle", "id": "84f1-37be-61a1-40f3", "hidden": false, "primary": true, "targetId": "7db6-6f0d-58cb-bd06"}],
+        "constraints": [{"id": "6035-ec6a-20b5-f133", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3}],
+        "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 6}],
+        "selectionEntries": [
+          {
+            "name": "LAV-25",
+            "id": "ded3-dd5b-eacc-f217",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {"id": "b25c-1ddf-6e8a-da1e-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "b25c-1ddf-6e8a-da1e-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 4}
+            ],
+            "infoLinks": [
+              {"name": "Transport (1)", "id": "11c4-1fc5-7083-727f", "hidden": false, "targetId": "9ae6-d2bd-f842-2f49", "type": "profile"},
+              {"name": "Recce", "id": "ba77-b59a-cf45-8d45", "hidden": false, "targetId": "42f5-f069-ae1a-57fd", "type": "profile"},
+              {"name": "Vehicle-mounted MMG", "id": "917e-dbef-9c02-c32c", "hidden": false, "targetId": "2672-2e95-fcbf-0446", "type": "profile"},
+              {"name": "Vehicle-mounted AA MMG", "id": "e42b-5f8f-b067-77f6", "hidden": false, "targetId": "f4ca-b9b2-8236-6dee", "type": "profile"},
+              {"name": "Light Cannon", "id": "6fe6-35a1-21a1-bedf", "hidden": false, "targetId": "5039-6698-f8fd-9242", "type": "profile"}
+            ],
+            "profiles": [
+              {
+                "name": "LAV-25",
+                "id": "f1d1-708f-6ace-9d89",
+                "hidden": false,
+                "typeId": "6e0c-050a-3841-59c1",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "H", "$text": "4", "typeId": "8865-af39-2125-93e9"},
+                  {"name": "A", "$text": "1", "typeId": "6797-8a84-a4c0-8f64"},
+                  {"name": "S", "$text": "14\"", "typeId": "aa13-2639-57aa-1bc5"},
+                  {"name": "C", "$text": "5", "typeId": "4808-d28d-9b56-ed77"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Veterans",
+            "id": "4b37-3005-d1b7-2e8d",
+            "hidden": false,
+            "import": true,
+            "page": "",
+            "type": "upgrade",
+            "constraints": [{"id": "58c0-ddd9-32f9-4e0a", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 3}],
+            "infoLinks": [{"name": "Veteran", "id": "2c7b-58b9-5dea-7045", "hidden": false, "targetId": "b91c-2fc8-5729-aa9c", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "M1117 ICV Guardian Vehicle Company",
+        "id": "8f34-877a-6b57-b64d",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Vehicle", "id": "56b9-6def-057f-f461", "hidden": false, "primary": true, "targetId": "7db6-6f0d-58cb-bd06"}],
+        "constraints": [{"id": "cfa3-e73d-8d31-08ef", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3}],
+        "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 6}],
+        "selectionEntries": [
+          {
+            "name": "M1117",
+            "id": "580d-0d5e-d8a1-0d6d",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {"id": "5d5a-58a8-171e-cde5-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 4},
+              {"id": "5d5a-58a8-171e-cde5-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 4}
+            ],
+            "infoLinks": [
+              {"name": "Transport (2)", "id": "e565-5bcc-afff-7f3c", "hidden": false, "targetId": "8c76-c8a7-68bc-e236", "type": "profile"},
+              {"name": "Recce", "id": "cfa0-a5cf-b481-5ddc", "hidden": false, "targetId": "42f5-f069-ae1a-57fd", "type": "profile"},
+              {"name": "Vehicle-mounted MMG", "id": "319a-2682-2ead-7b92", "hidden": false, "targetId": "2672-2e95-fcbf-0446", "type": "profile"},
+              {"name": "Vehicle-mounted HMG", "id": "1b76-e1b3-93ea-7335", "hidden": false, "targetId": "6243-9d65-3a45-64c4", "type": "profile"},
+              {"name": "Vehicle-mounted Granade Launcher", "id": "3f7d-e450-3556-cdc4", "hidden": false, "targetId": "f6b8-8ff9-99be-0b44", "type": "profile"}
+            ],
+            "profiles": [
+              {
+                "name": "M1117",
+                "id": "2470-bd68-41ee-5ce0",
+                "hidden": false,
+                "typeId": "6e0c-050a-3841-59c1",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "H", "$text": "4", "typeId": "8865-af39-2125-93e9"},
+                  {"name": "A", "$text": "1", "typeId": "6797-8a84-a4c0-8f64"},
+                  {"name": "S", "$text": "14\"", "typeId": "aa13-2639-57aa-1bc5"},
+                  {"name": "C", "$text": "5", "typeId": "4808-d28d-9b56-ed77"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Veterans",
+            "id": "4ca3-2e0c-4ccc-96b9",
+            "hidden": false,
+            "import": true,
+            "page": "",
+            "type": "upgrade",
+            "constraints": [{"id": "f09d-e905-f723-52cb", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 3}],
+            "infoLinks": [{"name": "Veteran", "id": "cd77-d532-096a-524a", "hidden": false, "targetId": "b91c-2fc8-5729-aa9c", "type": "profile"}]
+          }
+        ]
+      }
+    ]
+  }
+}
