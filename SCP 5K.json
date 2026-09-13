@@ -475,7 +475,7 @@
         "characteristics": [
           {
             "name": "Rule",
-            "$text": "This Vehicle unit always counts as Commanded. This Vehicle unit can Command one other unit. This Vehicle unit's Command characteristic is Increased by 1.",
+            "$text": "This Vehicle unit is always counted as Commanded. This Vehicle unit can Command one other unit. This Vehicle unit's Command characteristic is Increased by 1.",
             "typeId": "7009-7386-be56-b8df"
           }
         ]
@@ -486,7 +486,7 @@
         "hidden": false,
         "typeId": "66d6-0302-22e1-f471",
         "typeName": "Modules",
-        "characteristics": [{"name": "Rule", "$text": "This Vehicle unit always counts as Commanded. This unit auto-passes first morale test. ", "typeId": "7009-7386-be56-b8df"}]
+        "characteristics": [{"name": "Rule", "$text": "This Unit is always counts as Commanded. This unit auto-passes first morale test. ", "typeId": "7009-7386-be56-b8df"}]
       },
       {
         "name": "Fire Coordination",
