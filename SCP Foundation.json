@@ -1074,7 +1074,7 @@
         "hidden": false,
         "import": true,
         "type": "unit",
-        "categoryLinks": [{"name": "Vehicle", "id": "84f1-37be-61a1-40f3", "hidden": false, "primary": true, "targetId": "7db6-6f0d-58cb-bd06"}],
+        "categoryLinks": [{"name": "Infantry", "id": "9ec6-49a1-fc23-24f8", "hidden": false, "primary": true, "targetId": "92d1-b8f2-b72c-bb37"}],
         "constraints": [{"id": "6035-ec6a-20b5-f133", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3}],
         "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 6}],
         "selectionEntries": [
@@ -1227,174 +1227,6 @@
                       {"name": "A", "$text": "Infantry", "typeId": "6797-8a84-a4c0-8f64"},
                       {"name": "S", "$text": "6\"", "typeId": "aa13-2639-57aa-1bc5"},
                       {"name": "C", "$text": "2", "typeId": "4808-d28d-9b56-ed77"}
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "US Army Motorized Company",
-            "id": "8acc-9f1f-ae79-1c67",
-            "hidden": false,
-            "import": true,
-            "type": "unit",
-            "categoryLinks": [{"name": "Vehicle", "id": "83a2-5eca-defd-3d7e", "hidden": false, "primary": true, "targetId": "7db6-6f0d-58cb-bd06"}],
-            "constraints": [{"id": "ffb3-8bf4-846f-6b00", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3}],
-            "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 6}],
-            "selectionEntries": [
-              {
-                "name": "US Army Infantry",
-                "id": "4f56-12bf-178b-8393",
-                "hidden": false,
-                "import": true,
-                "type": "model",
-                "constraints": [
-                  {"id": "8a59-f22b-1822-1b80", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 2},
-                  {"id": "5a55-200b-c195-afa7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 2}
-                ],
-                "infoLinks": [
-                  {"name": "Compact AT Weapon", "id": "9860-cd20-2bc6-6143", "hidden": false, "targetId": "09ff-b524-afa0-62e2", "type": "profile"},
-                  {"name": "Rifle", "id": "ce96-d7d6-ec25-8c64", "hidden": false, "targetId": "a07b-eb51-38eb-22bc", "type": "profile"},
-                  {"name": "Rifle", "id": "edd2-bbce-44eb-13c7", "hidden": false, "targetId": "a07b-eb51-38eb-22bc", "type": "profile"}
-                ],
-                "profiles": [
-                  {
-                    "name": "US Army Infantry",
-                    "id": "920f-5773-c03c-7180",
-                    "hidden": false,
-                    "typeId": "6e0c-050a-3841-59c1",
-                    "typeName": "Unit",
-                    "characteristics": [
-                      {"name": "H", "$text": "4", "typeId": "8865-af39-2125-93e9"},
-                      {"name": "A", "$text": "Infantry", "typeId": "6797-8a84-a4c0-8f64"},
-                      {"name": "S", "$text": "8\"", "typeId": "aa13-2639-57aa-1bc5"},
-                      {"name": "C", "$text": "3", "typeId": "4808-d28d-9b56-ed77"}
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Extended Section: FIM-92F Stinger Support",
-                "id": "feb4-56a9-c9bb-a858",
-                "hidden": false,
-                "import": true,
-                "page": "",
-                "type": "upgrade",
-                "constraints": [{"id": "cc1d-0692-72bb-fd3d", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 2}],
-                "selectionEntries": [
-                  {
-                    "name": "US Army Infantry FIM-92F Stinger Support",
-                    "id": "d5ca-1c65-fb23-99a4",
-                    "hidden": false,
-                    "import": true,
-                    "type": "model",
-                    "constraints": [
-                      {"id": "06ff-1a89-7de1-47dd", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "69fb-ca99-0e1c-bfb1", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                    ],
-                    "infoLinks": [
-                      {"name": "Rifle", "id": "ab31-c34a-a6e3-8d86", "hidden": false, "targetId": "a07b-eb51-38eb-22bc", "type": "profile"},
-                      {"name": "Stationary AT Weapon", "id": "e0c9-d199-aa61-927b", "hidden": false, "targetId": "b314-d938-9446-1047", "type": "profile"}
-                    ],
-                    "profiles": [
-                      {
-                        "name": "US Army FIM-92F Stinger Support",
-                        "id": "4b77-9789-a97d-2241",
-                        "hidden": false,
-                        "typeId": "6e0c-050a-3841-59c1",
-                        "typeName": "Unit",
-                        "characteristics": [
-                          {"name": "H", "$text": "4", "typeId": "8865-af39-2125-93e9"},
-                          {"name": "A", "$text": "Infantry", "typeId": "6797-8a84-a4c0-8f64"},
-                          {"name": "S", "$text": "6\"", "typeId": "aa13-2639-57aa-1bc5"},
-                          {"name": "C", "$text": "2", "typeId": "4808-d28d-9b56-ed77"}
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "US Army Infantry MMG Section",
-                "id": "5f41-c6d7-50fa-80b2",
-                "hidden": false,
-                "import": true,
-                "type": "model",
-                "constraints": [
-                  {"id": "8543-d2b7-5ee6-9f70", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                  {"id": "a31d-c6a4-264b-85c7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                ],
-                "infoLinks": [
-                  {"name": "Stationary MMG", "id": "76f9-919c-6193-8df5", "hidden": false, "targetId": "1195-4fa1-549d-6b5d", "type": "profile"},
-                  {"name": "Rifle", "id": "df96-bb7c-0a27-40fa", "hidden": false, "targetId": "a07b-eb51-38eb-22bc", "type": "profile"}
-                ],
-                "profiles": [
-                  {
-                    "name": "US Army Infantry MMG Section",
-                    "id": "c398-86e9-c0aa-3964",
-                    "hidden": false,
-                    "typeId": "6e0c-050a-3841-59c1",
-                    "typeName": "Unit",
-                    "characteristics": [
-                      {"name": "H", "$text": "4", "typeId": "8865-af39-2125-93e9"},
-                      {"name": "A", "$text": "Infantry", "typeId": "6797-8a84-a4c0-8f64"},
-                      {"name": "S", "$text": "6\"", "typeId": "aa13-2639-57aa-1bc5"},
-                      {"name": "C", "$text": "2", "typeId": "4808-d28d-9b56-ed77"}
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Veterans",
-                "id": "f5d2-6b7f-b219-b4c3",
-                "hidden": false,
-                "import": true,
-                "page": "",
-                "type": "upgrade",
-                "constraints": [{"id": "bd03-023a-c809-ccda", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 3}],
-                "infoLinks": [{"name": "Veteran", "id": "3133-22f7-4ac9-7b8c", "hidden": false, "targetId": "b91c-2fc8-5729-aa9c", "type": "profile"}]
-              },
-              {
-                "name": "Extended Section: FIM-92F Stinger Support",
-                "id": "2fd3-72af-40b9-4d6f",
-                "hidden": false,
-                "import": true,
-                "page": "",
-                "type": "upgrade",
-                "constraints": [{"id": "d6fa-f441-d725-caa8", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
-                "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 3}],
-                "selectionEntries": [
-                  {
-                    "name": "US Army Infantry FGM-148 Javelin Support",
-                    "id": "d3e6-ded2-ba65-c62d",
-                    "hidden": false,
-                    "import": true,
-                    "type": "model",
-                    "constraints": [
-                      {"id": "5546-09ca-17f1-a84c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "5b8e-756c-2934-18a7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                    ],
-                    "infoLinks": [
-                      {"name": "Rifle", "id": "b347-afc4-1e24-5be9", "hidden": false, "targetId": "a07b-eb51-38eb-22bc", "type": "profile"},
-                      {"name": "Stationary AT Weapon", "id": "959d-bf05-a785-cd25", "hidden": false, "targetId": "b314-d938-9446-1047", "type": "profile"}
-                    ],
-                    "profiles": [
-                      {
-                        "name": "US Army FGM-148 Javelin Support",
-                        "id": "4706-c465-e847-f9a6",
-                        "hidden": false,
-                        "typeId": "6e0c-050a-3841-59c1",
-                        "typeName": "Unit",
-                        "characteristics": [
-                          {"name": "H", "$text": "4", "typeId": "8865-af39-2125-93e9"},
-                          {"name": "A", "$text": "Infantry", "typeId": "6797-8a84-a4c0-8f64"},
-                          {"name": "S", "$text": "6\"", "typeId": "aa13-2639-57aa-1bc5"},
-                          {"name": "C", "$text": "2", "typeId": "4808-d28d-9b56-ed77"}
-                        ]
-                      }
                     ]
                   }
                 ]
@@ -1631,9 +1463,9 @@
         "hidden": false,
         "import": true,
         "type": "unit",
-        "categoryLinks": [{"name": "Vehicle", "id": "e343-5704-1232-4194", "hidden": false, "primary": true, "targetId": "7db6-6f0d-58cb-bd06"}],
+        "categoryLinks": [{"name": "Infantry", "id": "9e92-91fb-24e1-5d6d", "hidden": false, "primary": true, "targetId": "92d1-b8f2-b72c-bb37"}],
         "constraints": [{"id": "9ce0-dc74-973d-37df", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3}],
-        "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 6}],
+        "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 8}],
         "selectionEntries": [
           {
             "name": "US Army Marines",
