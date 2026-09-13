@@ -1465,7 +1465,7 @@
         ]
       },
       {
-        "name": "US Army Marines Company",
+        "name": "US Marines Company",
         "id": "a733-294c-a1b6-486b",
         "hidden": false,
         "import": true,
@@ -1475,7 +1475,7 @@
         "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 8}],
         "selectionEntries": [
           {
-            "name": "US Army Marines",
+            "name": "US Marines",
             "id": "bb8e-fa74-67f4-bd8c",
             "hidden": false,
             "import": true,
@@ -1492,7 +1492,7 @@
             ],
             "profiles": [
               {
-                "name": "US Army Infantry",
+                "name": "US Marines",
                 "id": "19e8-e79b-beec-28f8",
                 "hidden": false,
                 "typeId": "6e0c-050a-3841-59c1",
@@ -1517,7 +1517,7 @@
             "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 2}],
             "selectionEntries": [
               {
-                "name": "US Army Infantry TOW-2A Support",
+                "name": "US Marines TOW-2A Support",
                 "id": "58a5-cf0d-3f92-a5ac",
                 "hidden": false,
                 "import": true,
@@ -1540,7 +1540,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "US Army TOW-2A Support",
+                    "name": "US Marines TOW-2A Support",
                     "id": "1b02-3e4b-d696-b131",
                     "hidden": false,
                     "typeId": "6e0c-050a-3841-59c1",
@@ -1571,7 +1571,7 @@
             ]
           },
           {
-            "name": "US Army Marines MMG Section",
+            "name": "US Marines MMG Section",
             "id": "5400-1673-de7f-99e5",
             "hidden": false,
             "import": true,
@@ -1587,7 +1587,7 @@
             ],
             "profiles": [
               {
-                "name": "US Army Infantry MMG Section",
+                "name": "US Marines MMG Section",
                 "id": "1665-610b-7543-ccec",
                 "hidden": false,
                 "typeId": "6e0c-050a-3841-59c1",
@@ -1624,7 +1624,7 @@
             "infoLinks": [{"name": "Elite", "id": "1d54-cb42-49ee-6f4d", "hidden": false, "targetId": "6d30-c548-6b29-60cd", "type": "profile"}],
             "selectionEntries": [
               {
-                "name": "US Army Infantry FIM-92F Stinger Support",
+                "name": "US Marines FIM-92F Stinger Support",
                 "id": "b744-2d82-e581-ebda",
                 "hidden": false,
                 "import": true,
