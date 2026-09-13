@@ -6,7 +6,7 @@
     "gameSystemId": "sys-859c-4de4-d4ed-27bf",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 2,
+    "revision": 3,
     "type": "catalogue",
     "entryLinks": [
       {"name": "M1A2 Abrams HQ [Recce]", "id": "0bf2-0b48-d19d-5124", "hidden": false, "import": true, "targetId": "a17c-d77b-6402-2bba", "type": "selectionEntry"},
@@ -73,7 +73,7 @@
         "targetId": "cf16-10db-9945-32f5",
         "type": "selectionEntry"
       },
-      {"name": "M113", "id": "1b04-36b6-97e1-4053", "hidden": false, "import": true, "targetId": "1333-1fd9-7709-61b9", "type": "selectionEntry"},
+      {"name": "M113 Vehicle Company", "id": "1b04-36b6-97e1-4053", "hidden": false, "import": true, "targetId": "1333-1fd9-7709-61b9", "type": "selectionEntry"},
       {
         "name": "LAV-25 Recce Vehicle Company",
         "id": "0e29-65d4-1e60-8c08",
@@ -88,6 +88,22 @@
         "hidden": false,
         "import": true,
         "targetId": "8f34-877a-6b57-b64d",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "M142 HIMARS Vehicle Company",
+        "id": "c6cb-3715-bc4f-5142",
+        "hidden": false,
+        "import": true,
+        "targetId": "303c-abaa-d69f-eae1",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "M270A1 MLRS Artillery Company",
+        "id": "e6ff-9c83-d52d-c165",
+        "hidden": false,
+        "import": true,
+        "targetId": "b734-4c97-1f13-ffdf",
         "type": "selectionEntry"
       }
     ],
@@ -1159,6 +1175,116 @@
             "constraints": [{"id": "f09d-e905-f723-52cb", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 3}],
             "infoLinks": [{"name": "Veteran", "id": "cd77-d532-096a-524a", "hidden": false, "targetId": "b91c-2fc8-5729-aa9c", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "M142 HIMARS Artillery Company",
+        "id": "303c-abaa-d69f-eae1",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Vehicle", "id": "f783-8697-adde-2205", "hidden": false, "primary": true, "targetId": "7db6-6f0d-58cb-bd06"}],
+        "constraints": [{"id": "6ea8-5cdd-a4db-dd78", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3}],
+        "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 10}],
+        "selectionEntries": [
+          {
+            "name": "M142 HIMARS",
+            "id": "c9f8-b4f0-0ce3-1401",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {"id": "66ca-5257-8acc-3dd9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 2},
+              {"id": "18b3-a2fe-14d9-a631", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 2}
+            ],
+            "infoLinks": [
+              {"name": "Vehicle-mounted Unguided Rocked Launcher", "id": "159f-24df-2acf-5bea", "hidden": false, "targetId": "8eca-4fc0-42a6-7b90", "type": "profile"},
+              {"name": "Vehicle-mounted Unguided Rocked Launcher", "id": "b3a3-c2af-4363-e893", "hidden": false, "targetId": "8eca-4fc0-42a6-7b90", "type": "profile"},
+              {"name": "Artillery", "id": "ed18-a74d-c39d-0afe", "hidden": false, "targetId": "a73b-462d-966a-a0c6", "type": "profile"}
+            ],
+            "profiles": [
+              {
+                "name": "M142 HIMARS",
+                "id": "170e-766b-3c32-1c61",
+                "hidden": false,
+                "typeId": "6e0c-050a-3841-59c1",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "H", "$text": "2", "typeId": "8865-af39-2125-93e9"},
+                  {"name": "A", "$text": "0", "typeId": "6797-8a84-a4c0-8f64"},
+                  {"name": "S", "$text": "22\"", "typeId": "aa13-2639-57aa-1bc5"},
+                  {"name": "C", "$text": "2", "typeId": "4808-d28d-9b56-ed77"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Veterans",
+            "id": "1a7e-6848-b683-cd8d",
+            "hidden": false,
+            "import": true,
+            "page": "",
+            "type": "upgrade",
+            "constraints": [{"id": "aada-a188-b74f-ab42", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 3}],
+            "infoLinks": [{"name": "Veteran", "id": "ae15-3e79-7731-ec46", "hidden": false, "targetId": "b91c-2fc8-5729-aa9c", "type": "profile"}]
+          }
+        ]
+      },
+      {
+        "name": "M270A1 MLRS Artillery Company",
+        "id": "b734-4c97-1f13-ffdf",
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "Vehicle", "id": "4038-3ea9-97fa-0c39", "hidden": false, "primary": true, "targetId": "7db6-6f0d-58cb-bd06"}],
+        "constraints": [{"id": "08d7-c849-b362-17b4", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3}],
+        "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 13}],
+        "selectionEntries": [
+          {
+            "name": "M270A1 MLRS",
+            "id": "3103-552c-e343-ccd4",
+            "hidden": false,
+            "import": true,
+            "type": "model",
+            "constraints": [
+              {"id": "76d3-b827-581d-c3d7", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 2},
+              {"id": "28de-56db-4ef5-28e2", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 2}
+            ],
+            "infoLinks": [
+              {"name": "Vehicle-mounted Unguided Rocked Launcher", "id": "15f2-8583-3646-437d", "hidden": false, "targetId": "8eca-4fc0-42a6-7b90", "type": "profile"},
+              {"name": "Vehicle-mounted Unguided Rocked Launcher", "id": "06d3-a0a5-ab5b-a9cf", "hidden": false, "targetId": "8eca-4fc0-42a6-7b90", "type": "profile"},
+              {"name": "Artillery", "id": "d36c-8a26-5267-42f2", "hidden": false, "targetId": "a73b-462d-966a-a0c6", "type": "profile"},
+              {"name": "Vehicle-mounted Unguided Rocked Launcher", "id": "b77d-b4cd-dd0a-fdd7", "hidden": false, "targetId": "8eca-4fc0-42a6-7b90", "type": "profile"},
+              {"name": "Vehicle-mounted Unguided Rocked Launcher", "id": "cf6e-b1d5-d58b-1617", "hidden": false, "targetId": "8eca-4fc0-42a6-7b90", "type": "profile"}
+            ],
+            "profiles": [
+              {
+                "name": "M270A1 MLRS",
+                "id": "d115-d2d5-825c-8b66",
+                "hidden": false,
+                "typeId": "6e0c-050a-3841-59c1",
+                "typeName": "Unit",
+                "characteristics": [
+                  {"name": "H", "$text": "2", "typeId": "8865-af39-2125-93e9"},
+                  {"name": "A", "$text": "0", "typeId": "6797-8a84-a4c0-8f64"},
+                  {"name": "S", "$text": "24\"", "typeId": "aa13-2639-57aa-1bc5"},
+                  {"name": "C", "$text": "2", "typeId": "4808-d28d-9b56-ed77"}
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Veterans",
+            "id": "1373-dc97-369d-c56b",
+            "hidden": false,
+            "import": true,
+            "page": "",
+            "type": "upgrade",
+            "constraints": [{"id": "a39a-5671-05ef-d5f1", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
+            "costs": [{"name": "points", "typeId": "3bd8-4df5-7bac-292a", "value": 3}],
+            "infoLinks": [{"name": "Veteran", "id": "c923-119b-cecd-7373", "hidden": false, "targetId": "b91c-2fc8-5729-aa9c", "type": "profile"}]
           }
         ]
       }

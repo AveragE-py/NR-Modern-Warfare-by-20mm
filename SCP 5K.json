@@ -4,7 +4,7 @@
     "id": "sys-859c-4de4-d4ed-27bf",
     "battleScribeVersion": "2.03",
     "library": true,
-    "revision": 3,
+    "revision": 4,
     "type": "gameSystem",
     "categoryEntries": [
       {
@@ -620,6 +620,19 @@
         "typeName": "Modules",
         "alias": ["This unit's command range is extended from 32\" to 48\". If this unit has Fire Coordination module, it can perform bonus from that module twice."],
         "characteristics": [{"name": "Rule", "$text": "", "typeId": "7009-7386-be56-b8df"}]
+      },
+      {
+        "name": "Vehicle-mounted Unguided Rocked Launcher",
+        "id": "8eca-4fc0-42a6-7b90",
+        "hidden": false,
+        "typeId": "6b8b-be20-14ba-5896",
+        "typeName": "Weapons",
+        "characteristics": [
+          {"name": "P", "$text": "3", "typeId": "a12c-0043-72e3-2860"},
+          {"name": "Pen", "$text": "-2", "typeId": "a092-a05e-7acc-953f"},
+          {"name": "R", "$text": "56\"", "typeId": "59f5-64d0-9111-ed28"},
+          {"name": "DT", "$text": "HE", "typeId": "b4c0-bbb0-8e52-04d6"}
+        ]
       }
     ]
   }
