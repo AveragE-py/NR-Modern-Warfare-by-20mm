@@ -618,8 +618,13 @@
         "hidden": false,
         "typeId": "66d6-0302-22e1-f471",
         "typeName": "Modules",
-        "alias": ["This unit's command range is extended from 32\" to 48\". If this unit has Fire Coordination module, it can perform bonus from that module twice."],
-        "characteristics": [{"name": "Rule", "$text": "", "typeId": "7009-7386-be56-b8df"}]
+        "characteristics": [
+          {
+            "name": "Rule",
+            "$text": "This unit's command range is extended from 32\" to 48\". If this unit has Fire Coordination module, it can perform bonus from that module twice.",
+            "typeId": "7009-7386-be56-b8df"
+          }
+        ]
       },
       {
         "name": "Vehicle-mounted Unguided Rocked Launcher",
