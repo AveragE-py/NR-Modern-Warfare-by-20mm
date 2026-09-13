@@ -106,7 +106,6 @@
         "targetId": "b734-4c97-1f13-ffdf",
         "type": "selectionEntry"
       },
-      {"name": "US Army Motorized Company", "id": "3f61-c867-6e8e-17e3", "hidden": false, "import": true, "targetId": "41c9-71fd-4c5b-32d1", "type": "selectionEntry"},
       {"name": "US Army Marines Company", "id": "3814-a4e7-2115-9ab3", "hidden": false, "import": true, "targetId": "a733-294c-a1b6-486b", "type": "selectionEntry"}
     ],
     "sharedSelectionEntries": [
