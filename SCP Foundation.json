@@ -1526,7 +1526,7 @@
                     "hidden": false,
                     "targetId": "b314-d938-9446-1047",
                     "type": "profile",
-                    "modifiers": [{"field": "a12c-0043-72e3-2860", "type": "cumulative-add", "value": "2"}, {"field": "a092-a05e-7acc-953f", "type": "cumulative-add", "value": "-2"}]
+                    "modifiers": [{"field": "a12c-0043-72e3-2860", "type": "cumulative-add", "value": "2"}]
                   },
                   {"name": "Elite", "id": "8919-875e-cbee-c081", "hidden": false, "targetId": "6d30-c548-6b29-60cd", "type": "profile"}
                 ],
@@ -1542,6 +1542,20 @@
                       {"name": "A", "$text": "Infantry", "typeId": "6797-8a84-a4c0-8f64"},
                       {"name": "S", "$text": "6\"", "typeId": "aa13-2639-57aa-1bc5"},
                       {"name": "C", "$text": "2", "typeId": "4808-d28d-9b56-ed77"}
+                    ]
+                  },
+                  {
+                    "name": "TOW-2A Special Rule",
+                    "id": "cbbb-bfc8-8bdc-fed1",
+                    "hidden": false,
+                    "typeId": "66d6-0302-22e1-f471",
+                    "typeName": "Modules",
+                    "characteristics": [
+                      {
+                        "name": "Rule",
+                        "$text": "This unit uses Stationary AT Weapon profile but P characteristic of that profile is increased by 2.",
+                        "typeId": "7009-7386-be56-b8df"
+                      }
                     ]
                   }
                 ]
@@ -1613,7 +1627,7 @@
                 ],
                 "infoLinks": [
                   {"name": "Rifle", "id": "9417-60e7-124f-1cbe", "hidden": false, "targetId": "a07b-eb51-38eb-22bc", "type": "profile"},
-                  {"name": "Stationary AT Weapon", "id": "5c0c-ae0f-83b4-f0c9", "hidden": false, "targetId": "b314-d938-9446-1047", "type": "profile"}
+                  {"name": "Stationary AA Missile Launcher", "id": "5c0c-ae0f-83b4-f0c9", "hidden": false, "targetId": "5678-a3b5-5bd2-bb3a", "type": "profile"}
                 ],
                 "profiles": [
                   {
