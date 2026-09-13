@@ -106,7 +106,15 @@
         "targetId": "b734-4c97-1f13-ffdf",
         "type": "selectionEntry"
       },
-      {"name": "US Army Marines Company", "id": "3814-a4e7-2115-9ab3", "hidden": false, "import": true, "targetId": "a733-294c-a1b6-486b", "type": "selectionEntry"}
+      {"name": "US Army Marines Company", "id": "3814-a4e7-2115-9ab3", "hidden": false, "import": true, "targetId": "a733-294c-a1b6-486b", "type": "selectionEntry"},
+      {
+        "name": "LAV-25 Recce Vehicle Company",
+        "id": "8f0e-e21f-37f3-05b7",
+        "hidden": false,
+        "import": true,
+        "targetId": "d67c-ed49-aa31-05d0",
+        "type": "selectionEntry"
+      }
     ],
     "sharedSelectionEntries": [
       {
